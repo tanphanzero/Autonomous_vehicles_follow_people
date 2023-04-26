@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tanphan/catkin_stm32_ws/install/setup.sh
