@@ -1,8 +1,7 @@
 # Autonomous_vehicles_follow_people
 
-## Đồ án 2: BK HCM (Me ft. Other member)
-- Chức năng: Phát hiện và đi theo người
-- Sử dụng: STM32F411 đọc tín hiệu Encoder và Jetson Nano đọc tín hiệu từ Camera (sử dụng Yolov8 phát hiện người), truyền xuống STM32F411 và tính toán tốc độ cho Motor thông qua ROSMASTER.
+- Function: Detect and follow people
+- Usage: STM32F411 reads the Encoder signal and Jetson Nano reads the signal from the Camera (using Yolov8 to detect people), transmits it to STM32F411 and calculates the speed for the Motor through ROSMASTER.
 
 ![da2](https://github.com/tanphanzero/Autonomous_vehicles_follow_people/assets/85573204/82d8bea6-b57d-448c-af27-9f1aae96760e)
 
