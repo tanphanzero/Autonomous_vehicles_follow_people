@@ -1,6 +1,6 @@
 # Autonomous_vehicles_follow_people
 
-## Đồ án 2: BK HCM
+## Đồ án 2: BK HCM (Me ft. Other member)
 - Chức năng: Phát hiện và đi theo người
 - Sử dụng: STM32F411 đọc tín hiệu Encoder và Jetson Nano đọc tín hiệu từ Camera (sử dụng Yolov8 phát hiện người), truyền xuống STM32F411 và tính toán tốc độ cho Motor thông qua ROSMASTER.
 
