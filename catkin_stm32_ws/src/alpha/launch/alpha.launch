@@ -5,8 +5,12 @@
 
 
  <node name="odom" pkg="alpha" type="odom.py"/>
- <node name="keyboard_teleop" pkg="alpha" type="keyboard_teleop.py"/>
  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find alpha)/rviz/alpha_config.rviz" required="true"/>
+
+ <node name="serial_node" pkg="rosserial_python" type="serial_node.py">
+   <param name="port" value="/dev/ttyUSB0"/>
+   <param name="baud" value="115200"/>  
+</node>
 
  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
