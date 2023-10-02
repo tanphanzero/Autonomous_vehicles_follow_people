@@ -9,13 +9,14 @@
 
 ![image](https://github.com/tanphanzero/Autonomous_vehicles_follow_people/assets/85573204/b4d97525-eb2f-472d-93ec-78b2796f6bbc)
 
-- Folder source: **catkin_stm32_ws** used on Jetson Nano. **robot** used on STM32F407.
-- File source:
+## Information about source code
+### Folder source: **catkin_stm32_ws** used on Jetson Nano. **robot** used on STM32F407.
+### File source:
 * /catkin_stm32_ws/test/src/person_follow.py for Algorithms follow people.
 * /catkin_stm32_ws/src/rosserial_python/nodes/serial_node.py for UART signal transmission between Jetson Nano and STM32F407.
 * /catkin_stm32_ws/src/alpha/src/xacro/alpha.xacro contains the Robot's hardware parameters for simulation on RViz.
 * /catkin_stm32_ws/src/alpha/src/launch/alpha.launch used to run the entire system.
 
-**Video demo**
+## Video demo
 
 Video demo project: https://youtube.com/shorts/NfBtLsbgUsM
